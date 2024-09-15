@@ -9,8 +9,6 @@ import scrapy
 class WorkScraperItem(scrapy.Item):
     title = scrapy.Field()
     company = scrapy.Field()
-    location = scrapy.Field()
-    conditions = scrapy.Field()
     technologies = scrapy.Field()
     salary = scrapy.Field()
     description = scrapy.Field()
